@@ -1,0 +1,1 @@
+This repository is to be used as a second brain with a help of Obsidian.
