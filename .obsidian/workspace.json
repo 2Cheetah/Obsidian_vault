@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet/Obsidian.md",
+                "file": "Cheat Sheets/Obsidian.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,14 +37,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheet/Docker.md",
+                "file": "Cheat Sheets/Docker.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2c159772ea660a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheets/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "503f47d57c62ae73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheets/NeoVim (nvim).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -110,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheet/Docker.md",
+                "file": "Cheat Sheets/NeoVim (nvim).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheet/Docker.md",
+                "file": "Cheat Sheets/NeoVim (nvim).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheet/Docker.md"
+                "file": "Cheat Sheets/NeoVim (nvim).md"
               }
             }
           }
@@ -171,9 +195,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "151490babd62d803",
+  "active": "503f47d57c62ae73",
   "lastOpenFiles": [
-    "Cheat Sheet/Obsidian.md",
+    "Untitled.md",
+    "Cheat Sheets/Git.md",
+    "Cheat Sheets/Docker.md",
+    "Cheat Sheets/Obsidian.md",
     "Cheat Sheet.md",
     "README.md"
   ]
