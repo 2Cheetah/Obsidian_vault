@@ -5,5 +5,7 @@
     "en-US",
     "ru",
     "de"
-  ]
+  ],
+  "strictLineBreaks": true,
+  "livePreview": false
 }

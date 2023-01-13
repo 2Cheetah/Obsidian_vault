@@ -15,7 +15,7 @@
               "state": {
                 "file": "Cheat Sheets/Docker.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -27,7 +27,7 @@
               "state": {
                 "file": "Cheat Sheets/Environment variables.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -39,7 +39,7 @@
               "state": {
                 "file": "Python/Asyncio.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -51,7 +51,7 @@
               "state": {
                 "file": "Python/Aiogram.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
