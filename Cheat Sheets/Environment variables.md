@@ -10,6 +10,10 @@
 ```shell
 set
 ```
+or with a command:
+```sh
+env
+```
 
 - Access a variable from the shell:
 ```shell
@@ -67,6 +71,11 @@ Or explicitly create variables as follows:
 export VAR="AAA123"
 ```
 
+Adding folder to the system `$PATH`:
+```shell
+export PATH="$HOME/bin:$PATH"
+```
+
 ### Application-wide
 
 #### Python
@@ -87,7 +96,21 @@ VAR1='1' VAR2='2' python main.py
 Start container, passing some environment variables to it.
 1. Environment variables exist in the host system (`$OPENAI_API_KEY` and `$OPENAI_CHATGPT_TELEBOT_TOKEN`)
 ```shell
-docker run --env OPENAI_API_KEY --env OPENAI_CHATGPT_TELEBOT_TOKEN -it chatgpt_bot_temp '/bin/sh' 
+docker run -e OPENAI_API_KEY --env OPENAI_CHATGPT_TELEBOT_TOKEN -it chatgpt_bot_temp '/bin/sh' 
+```
+2. Set environment variables explicitly:
+```sh
+docker run -e VAR1='AAA123' --env VAR2='BBB123' -it chatgpt_bot_temp '/bin/sh'
+```
+4. Store environments in a file which is to be passed as an argument. File content (`env.txt`):
+```text
+VARIABLE1=foobar1
+VARIABLE2=foobar2
+VARIABLE3=foobar3
+```
+Run docker with the `--env-file` key word:
+```sh
+docker run --env-file env.txt alpine:3 env
 ```
 
 ### systemd

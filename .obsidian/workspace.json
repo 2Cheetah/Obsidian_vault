@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3b079777f35cd3e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "721fa371ffcc0e94",
             "type": "leaf",
             "state": {
@@ -37,14 +25,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md",
+                "file": "Cheat Sheets/Environment variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abe4213aa49bc203",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Asyncio.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "194b4ef53a569501",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Aiogram.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md",
+                "file": "Python/Aiogram.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md",
+                "file": "Python/Aiogram.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md"
+                "file": "Python/Aiogram.md"
               }
             }
           }
@@ -171,16 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "151490babd62d803",
+  "active": "194b4ef53a569501",
   "lastOpenFiles": [
-    "Cheat Sheets/Obsidian.md",
+    "Python/Asyncio.md",
+    "Untitled.md",
     "Cheat Sheets/Environment variables.md",
     "Cheat Sheets/Docker.md",
+    "README.md",
+    "Cheat Sheets/NeoVim (nvim).md",
+    "Cheat Sheets/Obsidian.md",
     "[.md",
     "Cheat Sheets/Git.md",
-    "Cheat Sheets/NeoVim (nvim).md",
-    "Untitled.md",
-    "Cheat Sheet.md",
-    "README.md"
+    "Cheat Sheet.md"
   ]
 }
