@@ -1,4 +1,6 @@
 # NeoVim (nvim)
+#nvim #neovim #vim 
+
 **Neovim is a text editor with plugins which make it as powerful as IDE.**
 [Link to GitHub](https://github.com/neovim/neovim)
 [Видео от Диджитализируй - # БОЖЕСТВЕННЫЙ nvim как IDE для Python, Rust и всех-всех-всех — встречаем LSP!](https://youtu.be/PA7zZNJXJEk)
