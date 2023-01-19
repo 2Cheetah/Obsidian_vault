@@ -244,3 +244,35 @@ async def cmd_start(message: types.Message):
     keyboard.add(button_1, button_2)
     await message.answer("Как подавать котлеты?", reply_markup=keyboard)
 ```
+
+### Меню с кнопками
+
+Для того, чтобы добавить в бота меню с кнопками, необходимо создать несколько функций:
+```python
+async def set_default_commands(dp: Dispatcher) -> None:
+    commands = [
+        types.BotCommand("start", "Запустить / обновить бота"),
+        types.BotCommand("wanna_play", "Сыграем?"),
+        types.BotCommand("help", "Помощь"),
+    ]
+    print("### The default COMMANDS setup has been successfully completed")
+    await dp.bot.set_my_commands(commands)
+
+
+async def set_default_menu(dp: Dispatcher) -> None:
+    menu = types.MenuButtonCommands()
+    print("### The default MENU setup has been successfully completed")
+    await dp.bot.set_chat_menu_button(menu_button=menu)
+
+
+async def on_startup(dp: Dispatcher) -> None:
+    await set_default_commands(dp)
+    await set_default_menu(dp)
+```
+
+И зарегистрировать это меню во время запуска поллинга с помощью передачи аргумента `on_startup=on_startup`:
+```python
+if __name__ == '__main__':
+    executor.start_polling(dp, on_startup=on_startup, skip_updates=True)
+```
+
