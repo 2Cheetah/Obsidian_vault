@@ -54,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6184f51b843618a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS50 Course/CS50 intro.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fac597bf3f23b1a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS50 Course/Scratch.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -85,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#requirementstxt",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,8 +126,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Poetry.md",
+                "file": "CS50 Course/Scratch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Poetry.md",
+                "file": "CS50 Course/Scratch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Poetry.md"
+                "file": "CS50 Course/Scratch.md"
               }
             }
           }
@@ -185,8 +208,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "186e0897781f172c",
+  "active": "fac597bf3f23b1a4",
   "lastOpenFiles": [
+    "CS50 Course/CS50 intro.md",
+    "Python/Poetry.md",
     "Python/Aiogram2.md",
     "Python/Asyncio.md",
     "Cheat Sheets/NeoVim (nvim).md",
@@ -194,8 +219,6 @@
     "Python/* and **.md",
     "Cheat Sheets/Environment variables.md",
     "Untitled.md",
-    "Cheat Sheets/Docker.md",
-    "README.md",
-    "Cheat Sheets/Obsidian.md"
+    "Cheat Sheets/Docker.md"
   ]
 }
