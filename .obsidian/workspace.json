@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS50 Course/Scratch.md",
+                "file": "CS50 Course/Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1822ee8b068630b1",
@@ -146,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50 Course/Scratch.md",
+                "file": "CS50 Course/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50 Course/Scratch.md",
+                "file": "CS50 Course/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS50 Course/Scratch.md"
+                "file": "CS50 Course/Notes.md"
               }
             }
           }
@@ -210,7 +211,7 @@
   "active": "fac597bf3f23b1a4",
   "lastOpenFiles": [
     "Python/Numbers representation.md",
-    "CS50 Course/Scratch.md",
+    "CS50 Course/Notes.md",
     "CS50 Course/CS50 intro.md",
     "Python/Poetry.md",
     "Python/Aiogram2.md",
