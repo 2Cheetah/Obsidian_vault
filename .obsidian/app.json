@@ -6,6 +6,6 @@
     "ru",
     "de"
   ],
-  "strictLineBreaks": true,
+  "strictLineBreaks": false,
   "livePreview": true
 }
