@@ -78,9 +78,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5dc9fe5cccaddfb7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Selenium.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1822ee8b068630b1",
@@ -146,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md",
+                "file": "Python/Selenium.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md",
+                "file": "Python/Selenium.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cheat Sheets/NeoVim (nvim).md"
+                "file": "Python/Selenium.md"
               }
             }
           }
@@ -207,15 +220,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "fac597bf3f23b1a4",
+  "active": "5dc9fe5cccaddfb7",
   "lastOpenFiles": [
+    "Cheat Sheets/NeoVim (nvim).md",
     "CS50 Course/Notes.md",
     "Python/Numbers representation.md",
     "CS50 Course/CS50 intro.md",
     "Python/Poetry.md",
     "Python/Aiogram2.md",
     "Python/Asyncio.md",
-    "Cheat Sheets/NeoVim (nvim).md",
     "Cheat Sheets/Linux/macchanger.md",
     "Python/* and **.md",
     "Cheat Sheets/Environment variables.md"
