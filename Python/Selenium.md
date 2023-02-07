@@ -48,3 +48,5 @@ elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 driver.close()
 ```
+
+[Website to check if the headless browser is detected by sites](https://intoli.com/blog/not-possible-to-block-chrome-headless/chrome-headless-test.html)
