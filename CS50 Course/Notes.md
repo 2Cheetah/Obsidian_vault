@@ -55,5 +55,29 @@ int main(void)
 ```
 
 Another placeholders for `printf` are:
-- `%i` for *integer*
-- 
+- `%i` or `%d` for an *integer* value
+- `%li` for a *long integer* value
+- `%f` for a *float* value
+- `%c` for a *character*
+- `%x` for an *integer* in *hexadecimal* format
+- `%o` for an *integer* in *octal* format
+
+Simple calculator script:
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  int x;
+  int y;
+
+  printf("x: ");
+  scanf("%d", &x);
+  printf("y: ");
+  scanf("%d", &y);
+
+  printf("x + y = %i\n", x + y);
+}
+```
+
+The `&` operator is used to pass the address of the `x` variable to the `scanf` function, so that the value read from the input can be stored in the variable.

@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Logging.md",
+                "file": "CS50 Course/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Logging.md",
+                "file": "CS50 Course/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Logging.md"
+                "file": "CS50 Course/Notes.md"
               }
             }
           }
@@ -147,8 +147,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d09ed4a7124509a4",
+  "active": "6184f51b843618a7",
   "lastOpenFiles": [
+    "Python/Logging.md",
     "CS50 Course/Notes.md",
     "CS50 Course/CS50 intro.md",
     "Cheat Sheets/NeoVim (nvim).md",
@@ -157,7 +158,6 @@
     "Python/Poetry.md",
     "Python/Aiogram2.md",
     "Python/Asyncio.md",
-    "Cheat Sheets/Linux/macchanger.md",
-    "Python/* and **.md"
+    "Cheat Sheets/Linux/macchanger.md"
   ]
 }
