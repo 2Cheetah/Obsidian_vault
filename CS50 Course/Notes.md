@@ -21,6 +21,13 @@ int main(void)
 }
 ```
 
+`int main(void)`:
+- `int` is the return type of the `main` function. It means that the function returns *integer* value
+- `main` is the name of the function
+- `(void)` is a list of parameters of the function. The `void` keyword means that the `main` function takes no arguments
+
+In *c language* strings are marked with only double quotes `"some string"`.
+
 To be able to run the program, it must be compiled first:
 ```bash
 make hello_world
@@ -47,3 +54,6 @@ int main(void)
 }
 ```
 
+Another placeholders for `printf` are:
+- `%i` for *integer*
+- 
