@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS50 Course/Notes.md",
+                "file": "Python/Lists unpacking.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2181000be63d488a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cheat Sheets/ZSH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cedaa0176ec56295",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/PyEnv.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1822ee8b068630b1",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS50 Course/Notes.md",
+                "file": "Python/PyEnv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS50 Course/Notes.md",
+                "file": "Python/PyEnv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS50 Course/Notes.md"
+                "file": "Python/PyEnv.md"
               }
             }
           }
@@ -147,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6184f51b843618a7",
+  "active": "cedaa0176ec56295",
   "lastOpenFiles": [
-    "Python/Logging.md",
+    "Cheat Sheets/ZSH.md",
+    "Python/Lists unpacking.md",
     "CS50 Course/Notes.md",
+    "Python/Logging.md",
     "CS50 Course/CS50 intro.md",
     "Cheat Sheets/NeoVim (nvim).md",
     "Python/Selenium.md",
     "Python/Numbers representation.md",
     "Python/Poetry.md",
-    "Python/Aiogram2.md",
-    "Python/Asyncio.md",
-    "Cheat Sheets/Linux/macchanger.md"
+    "Python/Aiogram2.md"
   ]
 }
