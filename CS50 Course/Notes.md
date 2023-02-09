@@ -26,7 +26,7 @@ int main(void)
 - `main` is the name of the function
 - `(void)` is a list of parameters of the function. The `void` keyword means that the `main` function takes no arguments
 
-In *c language* strings are marked with only double quotes `"some string"`.
+In *c language* strings are marked with only double quotes `"some string"`. Single quotes are used for characters, e.g. `'y'` or `'n'`.
 
 To be able to run the program, it must be compiled first:
 ```bash
@@ -81,3 +81,37 @@ int main(void)
 ```
 
 The `&` operator is used to pass the address of the `x` variable to the `scanf` function, so that the value read from the input can be stored in the variable.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+  int points;
+  printf("How many points did you lose? ");
+  scanf("%d", &points);
+
+  const int MINE = 2;
+
+  if (points < MINE)
+  {
+    printf("You lost fewer points than me.\n");
+  }
+  else if (points > MINE)
+  {
+    printf("You lost more points than me.\n");
+  }
+  else
+  {
+    printf("You lost the same number of points as me.\n");
+  }
+}
+```
+
+It's a common convention to use ALL_CAPITALS for *constant values*. In `c` the constants are declared with `const` statement.
+
+*parity* is a fancy word for odd-or-even.
+
+`and` operator in `c` language `&&`
+`or` operator in `c` language `||`
+
