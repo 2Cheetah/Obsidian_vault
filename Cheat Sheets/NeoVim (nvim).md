@@ -115,3 +115,8 @@ or
 e.g. `:r !ls` - retrieves output of the `ls` command
 
 `<C-w><C-w>` - switch from one window to another
+
+# vim
+#vim #vimrc
+
+[Vimrc Configuration Guide - How to Customize Your Vim Code Editor with Mappings, Vimscript, Status Line, and More (freecodecamp.org)](https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/)
