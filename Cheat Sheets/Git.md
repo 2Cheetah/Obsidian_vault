@@ -1,6 +1,9 @@
 # Git
 [YouTube tutorial on Git and Github usage](https://youtu.be/RGOj5yH7evk)
 
+## [Conventional commits](https://www.conventionalcommits.org/)
+
+
 ## Set global variables
 `git config --global user.name "2Cheetah"`
 `git config --global user.email "fckninja@gmail.com"`

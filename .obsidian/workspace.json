@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/REST API.md",
+                "file": "Cheat Sheets/Git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "749f70ab67b3a2f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Python/Flask.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1822ee8b068630b1",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/REST API.md",
+                "file": "Python/Flask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/REST API.md",
+                "file": "Python/Flask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/REST API.md"
+                "file": "Python/Flask.md"
               }
             }
           }
@@ -147,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa0599d8e98874b2",
+  "active": "749f70ab67b3a2f4",
   "lastOpenFiles": [
-    "README.md",
+    "Cheat Sheets/Git.md",
     "Python/REST API.md",
+    "README.md",
     "www.render.com.md",
     "Cheat Sheets/Linux/curl.md",
     "Cheat Sheets/Obsidian.md",
     "Cheat Sheets/Linux/bash commands.md",
     "Cheat Sheets/Linux/Users management.md",
     "[Vimrc.md",
-    "Python/Lists unpacking.md",
-    "Cheat Sheets/ZSH.md"
+    "Python/Lists unpacking.md"
   ]
 }
