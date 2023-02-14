@@ -149,15 +149,15 @@
   },
   "active": "aa0599d8e98874b2",
   "lastOpenFiles": [
-    "Cheat Sheets/Linux/curl.md",
+    "README.md",
     "Python/REST API.md",
+    "www.render.com.md",
+    "Cheat Sheets/Linux/curl.md",
     "Cheat Sheets/Obsidian.md",
     "Cheat Sheets/Linux/bash commands.md",
     "Cheat Sheets/Linux/Users management.md",
     "[Vimrc.md",
     "Python/Lists unpacking.md",
-    "Cheat Sheets/ZSH.md",
-    "Cheat Sheets/NeoVim (nvim).md",
-    "Cheat Sheets/VPN/WireGuard.md"
+    "Cheat Sheets/ZSH.md"
   ]
 }

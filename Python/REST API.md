@@ -52,3 +52,15 @@ Main five HTTP methods:
 |`PATCH`|`/customers/<customer_id>`|Partially update a customer.|
 |`DELETE`|`/customers/<customer_id>`|Delete a customer.|
 
+## Deployment
+
+Free site to deploy a web application: [Render.com](https://dashboard.render.com/)
+
+## Github repo
+
+[API repo](https://github.com/2Cheetah/test_rest_api)
+
+## RealPython reference
+
+[Link](https://realpython.com/api-integration-in-python/#rest-architecture)
+
