@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c9aa206ec45950fc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/python-dotenv.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/python-dotenv.md",
+                "file": "Python/Flask.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python-dotenv.md",
+                "file": "Python/Flask.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/python-dotenv.md"
+                "file": "Python/Flask.md"
               }
             }
           }
@@ -159,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9aa206ec45950fc",
+  "active": "749f70ab67b3a2f4",
   "lastOpenFiles": [
+    "Python/gunicorn.md",
     "Python/Flask.md",
-    "Cheat Sheets/Git.md",
     "Python/REST API.md",
-    "README.md",
-    "www.render.com.md",
+    "Python/Poetry.md",
+    "CS50 Course/Notes.md",
     "Cheat Sheets/Linux/curl.md",
-    "Cheat Sheets/Obsidian.md",
-    "Cheat Sheets/Linux/bash commands.md",
-    "Cheat Sheets/Linux/Users management.md",
-    "[Vimrc.md"
+    "Python/python-dotenv.md",
+    "Cheat Sheets/Git.md",
+    "README.md",
+    "www.render.com.md"
   ]
 }
