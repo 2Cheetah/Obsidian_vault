@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Cheat Sheets/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1822ee8b068630b1",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Cheat Sheets/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/Flask.md",
+                "file": "Cheat Sheets/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python/Flask.md"
+                "file": "Cheat Sheets/Git.md"
               }
             }
           }
@@ -148,8 +149,8 @@
   },
   "active": "749f70ab67b3a2f4",
   "lastOpenFiles": [
-    "Python/gunicorn.md",
     "Python/Flask.md",
+    "Python/gunicorn.md",
     "Python/REST API.md",
     "Python/Poetry.md",
     "CS50 Course/Notes.md",
