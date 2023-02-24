@@ -238,7 +238,9 @@ git stash
 To remove any untracked files and folders:
 ```bash
 git clean -n # dry run
+git clean -dn # dry run with folders
 git clean -d # directories
 git clean -f # force
+git clean -df # force with folders
 ```
 
