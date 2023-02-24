@@ -225,3 +225,20 @@ git rebase <branch>/<commit>
 
 # git rebase -i --root
 ```
+
+## Stash and Clean
+
+```bash
+git stash
+# git stash list
+# git stash apply
+# git stash pop
+```
+
+To remove any untracked files and folders:
+```bash
+git clean -n # dry run
+git clean -d # directories
+git clean -f # force
+```
+
