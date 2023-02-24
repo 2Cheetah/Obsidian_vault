@@ -76,6 +76,11 @@ In case there's an error, it's needed to checkout from remote master branch to a
 ## Go to a specific commit. First it's needed to get a hash of the commit with command
 `git log`
 
+Oneliner:
+```bash
+git log --oneline
+```
+
 ## Then with the hash it's needed to use the command
 `git reset HASH`
 
@@ -159,3 +164,34 @@ To restore that changes:
 ```bash
 git mv README.txt README.md
 ```
+
+## Check differences
+
+```bash
+git diff
+```
+
+To check difference with some exact commit:
+```bash
+git log --oneline
+# 226b46e (HEAD -> main, origin/main, origin/HEAD) Update NOTICE
+# 1c64340 Update README.md
+# bd107b0 (tag: start) Changes to README
+# e32b1f9 Initial commit
+git diff bd107b0
+```
+
+## Amending
+
+To add a file to a commit after changes were already commited:
+```bash
+nvim README.md
+git add README.md
+git commit -m "README.md"
+nvim README.md
+nvim LICENSE
+git commit --amend --no-edit
+# or with new commit message
+git commit --amend
+```
+
