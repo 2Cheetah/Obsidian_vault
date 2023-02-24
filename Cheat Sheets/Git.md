@@ -78,3 +78,22 @@ In case there's an error, it's needed to checkout from remote master branch to a
 
 ## Then with the hash it's needed to use the command
 `git reset HASH`
+
+## Restore
+
+### From staged state
+
+```bash
+nvim README.md
+git add README.md
+git status
+git restore --staged README.md
+```
+
+### To initial state (the file changed, but is not staged)
+
+```bash
+nvim README.md
+git status
+git restore README.md
+```
