@@ -34,6 +34,12 @@
 `git branch feature_1`
 3. Switch to the created repo
 `git checkout feature_1`
+
+Steps 2 and 3 can be done with a single command:
+```bash
+git switch -c feature_1
+```
+
 4. Do the work with the code and commit the changes
 `git add -A`
 or
@@ -83,6 +89,11 @@ git log --oneline
 
 ## Then with the hash it's needed to use the command
 `git reset HASH`
+
+To go back to a commit with `<HASH>` with reverting back changes, flag `--hard` is to be used:
+```bash
+git reset --hard <HASH>
+```
 
 ## Restore
 
@@ -195,3 +206,22 @@ git commit --amend --no-edit
 git commit --amend
 ```
 
+## Create aliases
+
+```bash
+git config --global alias.l 'log --oneline'
+git config --global alias.st 'status -s'
+```
+
+## Rebasing
+
+Ability to move commits back and forth, change their order:
+```bash
+git rebase <branch>/<commit>
+# git rebase --interactive <branch>/<commit>
+
+# Go several commits back:
+# git rebase -i HEAD~# 
+
+# git rebase -i --root
+```
