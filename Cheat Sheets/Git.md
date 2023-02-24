@@ -1,4 +1,4 @@
-r# Git
+# Git
 [YouTube tutorial on Git and Github usage](https://youtu.be/RGOj5yH7evk)
 
 ## [Conventional commits](https://www.conventionalcommits.org/)
@@ -88,6 +88,8 @@ nvim README.md
 git add README.md
 git status
 git restore --staged README.md
+or
+git restore -S README.md
 ```
 
 ### To initial state (the file changed, but is not staged)
@@ -96,4 +98,64 @@ git restore --staged README.md
 nvim README.md
 git status
 git restore README.md
+```
+
+To restore the folder to the initial state:
+```bash
+git restore .
+```
+
+## .gitignore
+
+Example of its content:
+```text
+.DS_Store
+.vscode/
+authentication.js
+node_modules
+notes/
+**/*-todo.md
+```
+
+In case `.gitignore` file added after files which are to be excluded from tracking, cache must be cleared:
+```bash
+git rm -r --cached .
+```
+
+### Global Ignore File
+
+```bash
+git config --global core.excludesfile [file]
+```
+
+## Deleting and Renaming files
+
+```bash
+git rm README.md
+```
+
+With the removing of the `README.md` file from the folder the command as well adds changes to staging area.
+
+In case a file is renamed, git understands it as remove of initial file and creation of new one. To revert back renaming operation:
+```bash
+mv README.md README.txt
+git restore README.md
+rm README.txt
+```
+
+Renaming can be done with `git` help:
+```bash
+git mv README.md README.txt
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    README.md -> README.txt
+```
+
+To restore that changes:
+```bash
+git mv README.txt README.md
 ```
